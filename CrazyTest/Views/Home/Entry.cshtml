@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Entry";
+}
+
+<h2>Add/Edit Customer</h2>
+<hr />
+<div class="container">
+    <div id="divForm" data-param="@ViewBag.id"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.6/react.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.6/react-dom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+<script src="~/Scripts/CustomerForm.js" type="text/babel">
+</script>
+
+<style type="text/css">
+    .form-control.error {
+        border-color: red;
+        background-color: #FFF6F6;
+    }
+
+    span.error {
+        color: red;
+    }
+
+    .servermessage {
+        font-size: 32px;
+        margin-top: 20px;
+    }
+</style>
